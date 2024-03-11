@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   height: 300vh;
@@ -7,6 +11,10 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
 }
 
 nav {
@@ -94,6 +102,25 @@ header p {
 .content a span {
   flex-basis: 20%;
   padding-left: 10px;
+}
+
+section {
+  min-height: 100vh;
+}
+section:nth-of-type(even) {
+  background-color: whitesmoke;
+}
+section h2 {
+  padding-top: 12vh;
+  text-align: center;
+  font-size: 2.8rem;
+}
+section h3 {
+  font-size: 2rem;
+  padding-left: 30px;
+}
+section p {
+  padding-left: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
