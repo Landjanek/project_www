@@ -52,7 +52,7 @@ nav div {
 
 header {
   height: 100vh;
-  background: url("../assets/jmg/bg-header.webp") center/cover fixed;
+  background: url("../assets/img/bg-header.webp") center/cover fixed;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -96,7 +96,7 @@ header p {
   transition: 0.5s;
 }
 .content a:hover {
-  background-color: rgba(38, 89, 2, 0.7254901961);
+  background-color: rgba(38, 89, 2, 0.7215686275);
   transform: translateY(-10px);
 }
 .content a span {
@@ -117,9 +117,6 @@ section h2 {
 }
 section h3 {
   font-size: 2rem;
-  padding-left: 30px;
-}
-section p {
   padding-left: 30px;
 }
 
